@@ -212,8 +212,8 @@ struct ContentView: View {
             if items[index].quantity <= 0 {
                 items.remove(at: index)
             }
-            saveItems()
-        }
+        saveItems()
+    }
     }
     
     func fetchProductDetails(_ scannedCode: String) {
